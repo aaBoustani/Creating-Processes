@@ -30,11 +30,11 @@ void proc (int p) {
       vals[j] = j;
       pthread_create(&thr[j - 1], NULL, &thread_id, vals + j);
     }
- //   for (int k = 1; k <= NUMTHRD; k++)
-//      pthread_join(thr[k - 1], 0);
+   for (int k = 1; k <= NUMTHRD; k++)
+      pthread_join(thr[k - 1], 0);
   }
   proc(p + 1);
-////  kill (child, SIGTERM);
+  kill (child, SIGTERM);
 }
 
 // Code for each thread n
