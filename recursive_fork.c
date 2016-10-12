@@ -38,7 +38,6 @@ void proc (int p) {
 }
 
 // Code for each thread n
-
 void *thread_id (void *n) {
   printf("I am thread pid %d.%d \n", (int) getpid(), *(int *)n);
   return NULL;
