@@ -16,17 +16,17 @@ Each process creates 3 threads in a loop
 
 This version of the program gives the following output:
 
-Spawning process 1 pid 9496  
-I am thread pid 9496.1  
-I am thread pid 9496.2  
-I am thread pid 9496.3  
-Spawning process 2 pid 9500  
-I am thread pid 9500.1  
-I am thread pid 9500.2  
-I am thread pid 9500.3  
-Spawning process 3 pid 9504  
-I am thread pid 9504.1  
-I am thread pid 9504.2  
-I am thread pid 9504.3  
+     Spawning process 1 pid 9496  
+     I am thread pid 9496.1  
+     I am thread pid 9496.2  
+     I am thread pid 9496.3  
+     Spawning process 2 pid 9500  
+     I am thread pid 9500.1  
+     I am thread pid 9500.2  
+     I am thread pid 9500.3  
+     Spawning process 3 pid 9504  
+     I am thread pid 9504.1  
+     I am thread pid 9504.2  
+     I am thread pid 9504.3  
 
 
