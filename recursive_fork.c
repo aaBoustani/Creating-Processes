@@ -16,7 +16,7 @@ void *thread_id (void *n);
 /*************** Helper Functions *******************/
 // Code for each process p
 void proc (int p) {
-  if (p > 3) return;
+  if (p > NUMPROC) return;
   int status, vals[NUMTHRD];
   pid_t child;
   child = fork();
