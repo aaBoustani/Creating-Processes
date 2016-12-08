@@ -8,9 +8,9 @@ It handles the problem of synchronization
 ## Overview
 
 This program creates 3 processes recursively (each process is created inside the other).  
-&ensp;The order of the processes is 1 2 3  
+&ensp;&ensp;&ensp;The order of the processes is 1 2 3  
 Each process creates 3 threads in a loop.  
-&ensp;The order of the threads in each process is 1 2 3
+&ensp;&ensp;&ensp;The order of the threads in each process is 1 2 3
 
 ## Output
 
